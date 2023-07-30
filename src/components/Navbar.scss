@@ -1,0 +1,20 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    height: 5vmax;
+    background: #04cef6;
+    .navbar-links{
+        display: flex;
+        align-items: center;
+        gap:0 1rem;
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .brand{
+        color: aliceblue;
+    }
+}
